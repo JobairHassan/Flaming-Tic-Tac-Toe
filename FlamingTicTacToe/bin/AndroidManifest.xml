@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jobair.hassan.flamingtictactoe"
+     android:versionCode="2"
+    android:versionName="1.1" >
+ 
+    <uses-sdk android:minSdkVersion="10" />
+ 
+ <application
+        android:icon="@drawable/tictactoe"
+        android:label="Flaming Tic-Tac-Toe" >
+        <activity
+            android:name="jobair.hassan.flamingtictactoe.MainMenuScreen"
+            android:label="Flaming Tic-Tac-Toe"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jobair.hassan.flamingtictactoe.TicTacToeTutorialActivity"
+            android:label="@string/app_name" >
+        </activity>
+       
+    </application>
+ 
+    
+ 
+</manifest>
